@@ -1,0 +1,27 @@
+/************** variables ***********/
+$color_white : #edf2f4;
+$color_red1 : #ef233c;
+$color_red2 : #e94558;
+$color_gray : #8d99ae;
+$color_purple : #2b2d42;
+$font_size_title : 3rem; 
+$font_size_text : 1.3rem;
+
+
+/************ general ************/
+%button{
+
+    color: $color_white;
+    background-color: $color_red1;
+    font-size: $font_size_text;
+    padding: 4px;
+    border-radius: 5px;
+    border: none;
+    transition: .5s background-color;
+    cursor: pointer;
+
+    &:hover{
+        background-color: $color_red2;
+    }
+
+}

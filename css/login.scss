@@ -1,0 +1,44 @@
+@import '_var.scss';
+
+.login-title{
+    text-align: center;
+    font-size: $font_size_title;
+    font-weight: bolder;
+    padding: 20px;
+
+}
+.form-content{
+    height: 79vh;
+}
+
+.login-section{
+    width: 60%;
+    margin: auto;
+    height: 40vh;
+    border: 1px solid #333;
+    background-color: $color_white;
+
+    form{
+        padding-top: 50px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    input{
+        margin:15px auto;
+        width: 70%;
+        border: none;
+        outline: none;
+        padding: 5px;
+        border-radius: 5px;
+      
+
+      
+    }
+    #loginBtn{
+        margin: 10px auto;
+        width: 70%;
+        @extend %button;
+    }
+
+}

@@ -1,0 +1,87 @@
+@import '_var.scss';
+
+.overlay-box{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.397);
+    overflow: hidden;
+    display: none;
+
+    .overlay-box-modal{
+        padding: 20px;
+        background-color: $color_purple;
+        color: $color_white;
+        width: 50%;
+        height: 95vh;
+        margin: 0 auto;
+    
+        .title-name{
+            color: $color_red2;
+            font-size: $font_size_title;
+        }
+       
+       option,select,#start-date,#end-date,#num-people{
+           color: $color_purple;
+
+       }
+    
+     .img-modal{
+            width: 100%;
+            height: 40vh;
+            object-fit: cover;
+            margin: 0 auto;
+            display: block;
+
+     }
+
+     .reserve-modal{
+        @extend %button;
+
+     }
+
+     .close-modal{
+        cursor: pointer;
+        margin-left: 10px;
+
+        }
+        .details-side{
+                padding: 20px;
+                display: flex;
+                flex-direction: column;
+
+        }
+       
+        .button-side{
+            padding: 20px;
+            margin-top: 300px;
+          
+        }
+
+
+    }
+}
+
+@media(max-width:1199px){
+
+    
+    .overlay-box-modal{
+         width: 100%;
+        .img-modal{
+            height: 30vh !important;
+        }
+        .button-side{
+            margin-top: 0 !important;
+    
+        }
+    }
+  
+
+}
+
+        
+
+
+// /*************** end modal *************/

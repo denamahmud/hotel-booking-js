@@ -1,0 +1,173 @@
+/************** variables ***********/
+/************ general ************/
+.hotels-main .hotels .hotel #details, .header .registration #signUpBtn, .header .registration #registration .log-in, .header .registration #registration .sign-up, .header .logo a {
+  color: #edf2f4;
+  background-color: #ef233c;
+  font-size: 1.3rem;
+  padding: 4px;
+  border-radius: 5px;
+  border: none;
+  transition: 0.5s background-color;
+  cursor: pointer;
+}
+.hotels-main .hotels .hotel #details:hover, .header .registration #signUpBtn:hover, .header .registration #registration .log-in:hover, .header .registration #registration .sign-up:hover, .header .logo a:hover {
+  background-color: #e94558;
+}
+
+/*************** start header *************/
+.header {
+  background-color: #8d99ae;
+  padding: 20px 0;
+}
+.header .logo {
+  display: inline-block;
+}
+.header .logo a {
+  font-size: 3rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  background: none;
+  line-height: 2;
+}
+.header .logo a:hover {
+  background-color: #e94558;
+}
+.header .registration {
+  text-align: right;
+  margin-top: 10px;
+}
+.header .registration #registration {
+  display: inline-block;
+}
+.header .registration #registration .sign-up {
+  background: none;
+}
+.header .registration #registration .sign-up:hover {
+  background-color: #ef233c;
+}
+.header .registration #registration .log-in a {
+  color: #edf2f4;
+}
+.header .registration #registration .log-in a:hover {
+  text-decoration: none;
+}
+.header .registration form {
+  display: flex;
+  flex-direction: column;
+}
+.header .registration form input {
+  border: none;
+  padding: 10px;
+  outline: none;
+  border-bottom: 1px solid #333;
+}
+.header .user-container {
+  margin-top: -20px;
+  display: inline;
+  float: right;
+  color: #edf2f4;
+}
+.header .user-container .user-in-header {
+  text-transform: uppercase;
+  display: none;
+}
+.header .user-container .logout {
+  margin-left: 20px;
+  font-size: 20px;
+  cursor: pointer;
+  display: none;
+  line-height: 3.5;
+}
+@media (max-width: 1199px) {
+  .header .registration {
+    margin-top: -50px;
+  }
+}
+
+/*************** end header *************/
+/*************** start main *************/
+.title {
+  font-size: 4rem;
+  font-weight: bold;
+  padding: 10px;
+  color: #2b2d42;
+  text-transform: uppercase;
+  border-bottom: 3px solid #2b2d42;
+  width: 40%;
+}
+
+.hotels-main {
+  background-color: #edf2f4;
+}
+.hotels-main .welcome-heading {
+  text-align: center;
+  font-size: 5rem;
+  padding: 30px;
+}
+.hotels-main .hotels .hotel {
+  background-color: #edf2f4;
+  height: 550px;
+  padding: 25px;
+  margin-bottom: 10px;
+}
+.hotels-main .hotels .hotel .name-hotel {
+  color: #2b2d42;
+  font-size: 4rem;
+  text-transform: capitalize;
+}
+.hotels-main .hotels .hotel img {
+  width: 300px;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.hotels-main .hotels .hotel .desc {
+  color: rgb(187, 187, 187);
+  margin: 30px 0;
+}
+.hotels-main .hotels .hotel #details {
+  cursor: pointer;
+}
+
+/*************** end main *************/
+/*************** start reservation *************/
+.reservation-content {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.reservation-content .reservation-display {
+  background-color: #edf2f4;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 3rem;
+  color: #e94558;
+}
+.reservation-content .reservation-display .img-res {
+  width: 70%;
+  margin: 0 auto;
+  height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.reservation-content .reservation-display .paddingTC-5, .reservation-content .reservation-display #paddingTC-5 {
+  padding-top: 5px;
+  color: #8d99ae;
+}
+
+.no-reservations {
+  color: #8d99ae;
+  font-size: 6rem;
+  text-align: center;
+  line-height: 4;
+}
+
+/*************** end reservation *************/
+.footer {
+  padding: 10px;
+  text-align: center;
+  background-color: #2b2d42;
+  color: #edf2f4;
+  line-height: 2.5;
+}/*# sourceMappingURL=style.css.map */

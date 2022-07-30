@@ -1,0 +1,51 @@
+/************** variables ***********/
+/************ general ************/
+.login-section #loginBtn {
+  color: #edf2f4;
+  background-color: #ef233c;
+  font-size: 1.3rem;
+  padding: 4px;
+  border-radius: 5px;
+  border: none;
+  transition: 0.5s background-color;
+  cursor: pointer;
+}
+.login-section #loginBtn:hover {
+  background-color: #e94558;
+}
+
+.login-title {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bolder;
+  padding: 20px;
+}
+
+.form-content {
+  height: 79vh;
+}
+
+.login-section {
+  width: 60%;
+  margin: auto;
+  height: 40vh;
+  border: 1px solid #333;
+  background-color: #edf2f4;
+}
+.login-section form {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+.login-section input {
+  margin: 15px auto;
+  width: 70%;
+  border: none;
+  outline: none;
+  padding: 5px;
+  border-radius: 5px;
+}
+.login-section #loginBtn {
+  margin: 10px auto;
+  width: 70%;
+}/*# sourceMappingURL=login.css.map */

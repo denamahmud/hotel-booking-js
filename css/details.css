@@ -1,0 +1,74 @@
+/************** variables ***********/
+/************ general ************/
+.overlay-box .overlay-box-modal .reserve-modal {
+  color: #edf2f4;
+  background-color: #ef233c;
+  font-size: 1.3rem;
+  padding: 4px;
+  border-radius: 5px;
+  border: none;
+  transition: 0.5s background-color;
+  cursor: pointer;
+}
+.overlay-box .overlay-box-modal .reserve-modal:hover {
+  background-color: #e94558;
+}
+
+.overlay-box {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.397);
+  overflow: hidden;
+  display: none;
+}
+.overlay-box .overlay-box-modal {
+  padding: 20px;
+  background-color: #2b2d42;
+  color: #edf2f4;
+  width: 50%;
+  height: 95vh;
+  margin: 0 auto;
+}
+.overlay-box .overlay-box-modal .title-name {
+  color: #e94558;
+  font-size: 3rem;
+}
+.overlay-box .overlay-box-modal option, .overlay-box .overlay-box-modal select, .overlay-box .overlay-box-modal #start-date, .overlay-box .overlay-box-modal #end-date, .overlay-box .overlay-box-modal #num-people {
+  color: #2b2d42;
+}
+.overlay-box .overlay-box-modal .img-modal {
+  width: 100%;
+  height: 40vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin: 0 auto;
+  display: block;
+}
+.overlay-box .overlay-box-modal .close-modal {
+  cursor: pointer;
+  margin-left: 10px;
+}
+.overlay-box .overlay-box-modal .details-side {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.overlay-box .overlay-box-modal .button-side {
+  padding: 20px;
+  margin-top: 300px;
+}
+
+@media (max-width: 1199px) {
+  .overlay-box-modal {
+    width: 100%;
+  }
+  .overlay-box-modal .img-modal {
+    height: 30vh !important;
+  }
+  .overlay-box-modal .button-side {
+    margin-top: 0 !important;
+  }
+}/*# sourceMappingURL=details.css.map */
