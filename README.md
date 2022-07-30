@@ -27,4 +27,4 @@
 
 <h2>User experience :-</h2>
 <p>The users cannot see the hotels unless firstly register
-when registraion has authentication they can see all hotels then select on details of any hotel then they will enter data and click on booking now button</p>
+when registraion authentication has done they can see all hotels then select on details of any hotel then they will enter data and click on booking now button</p>
